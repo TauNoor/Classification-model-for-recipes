@@ -1,4 +1,4 @@
-# Prediction Model: How Good are these Recipes?
+# Prediction Time: How Good are these Recipes?
 by Tauhid Noor (tnoor@ucsd.edu)
 
 ## Framing the Problem
