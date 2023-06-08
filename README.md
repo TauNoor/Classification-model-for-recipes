@@ -80,6 +80,8 @@ After coming up with the final model, it's important to check if the model is bi
 
 **Alternative hypothesis:** The model is not fair. There is a difference in mean accuracy betwene data with low no. of ingredients and high no. of ingredients. 
 
+**Evaluation metric:** Mean accuracy
+
 **Test statistic:** Absolute difference in mean accuracy
 
 **Significance level:** 1%
