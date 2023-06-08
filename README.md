@@ -76,9 +76,9 @@ After coming up with the final model, it's important to check if the model is bi
 
 **Group 2:** The dataset with low number of ingredients (less than or equal to 8)
 
-**Null hypothesis:** There is no difference in mean accuracy between data with low no. of ingredients and high no. of ingredients.
+**Null hypothesis:** The model is fair. There is no difference in mean accuracy between data with low no. of ingredients and high no. of ingredients.
 
-**Alternative hypothesis:** There is a difference in mean accuracy betwene data with low no. of ingredients and high no. of ingredients. 
+**Alternative hypothesis:** The model is not fair. There is a difference in mean accuracy betwene data with low no. of ingredients and high no. of ingredients. 
 
 **Test statistic:** Absolute difference in mean accuracy
 
