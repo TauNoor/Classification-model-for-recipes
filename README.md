@@ -18,10 +18,30 @@ In our final model, I will engineer two new additional features with several col
 
 It's important to pick the best sub-hyperparameter (max_depth) to avoid overfitting or underfitting, and then the best hyperparameter (decision tree/random forest) to get the best overall performance. 
 
-##### Decision Tree Result:
+##### Decision Tree Accuracy Result:
+
+|    |   max_depth |   train_accuracy |   test_accuracy |
+|---:|------------:|-----------------:|----------------:|
+|  0 |           1 |         0.773088 |        0.774289 |
+|  1 |           2 |         0.773088 |        0.774289 |
+|  2 |           3 |         0.773088 |        0.774289 |
+|  3 |           4 |         0.7731   |        0.774216 |
+|  4 |           5 |         0.773137 |        0.774308 |
+|  5 |           6 |         0.773173 |        0.774362 |
+|  6 |           7 |         0.773319 |        0.773979 |
+|  7 |           8 |         0.773702 |        0.77367  |
+|  8 |           9 |         0.774237 |        0.772977 |
+|  9 |          10 |         0.775009 |        0.772339 |
+| 10 |          11 |         0.776169 |        0.771208 |
+| 11 |          12 |         0.777561 |        0.77026  |
+| 12 |          13 |         0.779178 |        0.76933  |
+| 13 |          14 |         0.781323 |        0.766924 |
+| 14 |          15 |         0.783997 |        0.764426 |
+
 After going through an iterative process to find the mean accuracies of the different max depths of our Decision Tree, we found the best max_depth to be 13, and the average of the training and testing accuracies to be approximately 77.428%. We will now do the same with the Random Forest Classifier algorithm and compare the two different models. 
 
-##### Random Forest Result:
+##### Random Forest Accuracy Result:
+
 After going through an iterative process to find the mean accuracies of the different max depths of our Random Forest, we found the best max depth to be 15, and the average of the training and testing accuracies to be approximately 77.482%. 
 
 ##### Comparison:
