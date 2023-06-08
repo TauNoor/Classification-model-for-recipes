@@ -84,5 +84,7 @@ After coming up with the final model, it's important to check if the model is bi
 
 **Significance level:** 1%
 
+<iframe src="histplot.html" width=800 height=600 frameBorder=0></iframe>
+
 #### Conclusion
 The p-value is 0.8% which falls below the 1% threshold. Hence, we reject the null hypothesis which claimed there was no significant difference. Now while we may have rejected the null hypothesis, it doesn't mean we accept the alternative hypothesis. Based on our permutation test, we can only say that there is an association between the performance of the model and the group.
