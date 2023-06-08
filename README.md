@@ -42,6 +42,24 @@ After going through an iterative process to find the mean accuracies of the diff
 
 ##### Random Forest Accuracy Result:
 
+|    |   max_depth |   train_accuracy |   test_accuracy |
+|---:|------------:|-----------------:|----------------:|
+|  0 |           1 |         0.773088 |        0.774289 |
+|  1 |           2 |         0.773088 |        0.774289 |
+|  2 |           3 |         0.773088 |        0.774289 |
+|  3 |           4 |         0.773088 |        0.774289 |
+|  4 |           5 |         0.773088 |        0.774289 |
+|  5 |           6 |         0.773088 |        0.774289 |
+|  6 |           7 |         0.773088 |        0.774289 |
+|  7 |           8 |         0.773088 |        0.774289 |
+|  8 |           9 |         0.773094 |        0.774289 |
+|  9 |          10 |         0.773131 |        0.774235 |
+| 10 |          11 |         0.773228 |        0.774253 |
+| 11 |          12 |         0.773355 |        0.774271 |
+| 12 |          13 |         0.77375  |        0.774162 |
+| 13 |          14 |         0.774504 |        0.773998 |
+| 14 |          15 |         0.775853 |        0.773761 |
+
 After going through an iterative process to find the mean accuracies of the different max depths of our Random Forest, we found the best max depth to be 15, and the average of the training and testing accuracies to be approximately 77.482%. 
 
 ##### Comparison:
